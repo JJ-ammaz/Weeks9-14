@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 191415045}
   - component: {fileID: 191415048}
   - component: {fileID: 191415047}
+  - component: {fileID: 191415049}
   m_Layer: 0
   m_Name: tanks_tankDesert_body1_0
   m_TagString: Untagged
@@ -343,6 +344,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Move
   speed: 5
+--- !u!114 &191415049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191415044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f487aa96d5e6099448e1817045d17a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Look
 --- !u!1 &1734014162
 GameObject:
   m_ObjectHideFlags: 0

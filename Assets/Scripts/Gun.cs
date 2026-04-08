@@ -20,6 +20,15 @@ public class Gun : MonoBehaviour
         
     }
 
+    public void FirstEquip(InputAction.CallbackContext context)
+    {
+        SingleShotActive = true;
+        SpreadShotActive = false;
+        RapidShotActive = false;
+
+    }
+
+
     public void OnShoot(InputAction.CallbackContext context)
     {
 

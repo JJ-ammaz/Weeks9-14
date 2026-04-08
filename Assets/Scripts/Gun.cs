@@ -22,6 +22,7 @@ public class Gun : MonoBehaviour
 
     public void OnShoot(InputAction.CallbackContext context)
     {
+
         if (RapidShotActive)
         {
             Instantiate(rapidBullet, transform.position, transform.rotation * Quaternion.Euler(0, 0, Random.Range(-2, 2)));

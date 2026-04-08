@@ -14,6 +14,6 @@ public class Look : MonoBehaviour
 
         Vector2 direction = mouseWorldPos - (Vector2)transform.position;
 
-        transform.up = direction;
+        transform.right = direction;
     }
 }

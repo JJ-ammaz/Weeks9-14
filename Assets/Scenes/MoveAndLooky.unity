@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 191415046}
   - component: {fileID: 191415045}
   - component: {fileID: 191415048}
-  - component: {fileID: 191415051}
+  - component: {fileID: 191415050}
   - component: {fileID: 191415047}
   - component: {fileID: 191415049}
   m_Layer: 0
@@ -444,8 +444,8 @@ MonoBehaviour:
     m_ActionName: 'Player/Look[/Mouse/delta]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 191415051}
-        m_TargetAssemblyTypeName: ShotgunTrial, Assembly-CSharp
+      - m_Target: {fileID: 191415050}
+        m_TargetAssemblyTypeName: Gun, Assembly-CSharp
         m_MethodName: OnShoot
         m_Mode: 0
         m_Arguments:
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f487aa96d5e6099448e1817045d17a00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Look
---- !u!114 &191415051
+--- !u!114 &191415050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -561,11 +561,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 191415044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 309d971818e5565418a1acc928670ff1, type: 3}
+  m_Script: {fileID: 11500000, guid: 58951d131e34ab24aad908c2ef3489f0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ShotgunTrial
-  bulletPrefab: {fileID: 4690791708660790971, guid: e7e1421bf3de70540afd36ded1103111, type: 3}
-  SecondBullet: 0
+  m_EditorClassIdentifier: Assembly-CSharp::Gun
+  singleBullet: {fileID: 1621276637464747626, guid: 5601f46d9f30663408f04553d0fc315a, type: 3}
+  spreadBullet: {fileID: 2533920171827982639, guid: 44b2d4e6c99a6b4449cbd1586a896ad0, type: 3}
+  rapidBullet: {fileID: 2865756205212926749, guid: 5bf554e9428306c4ba920ee6563db223, type: 3}
+  SingleShotActive: 0
+  SpreadShotActive: 0
+  RapidShotActive: 0
 --- !u!1 &353585857
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6301411286499333733}
   - component: {fileID: 2397727658216298702}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: spreadBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

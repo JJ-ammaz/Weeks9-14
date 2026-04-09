@@ -11,6 +11,7 @@ public class Gun : MonoBehaviour
     public UnityEvent onSpreadFire;
     public UnityEvent onRapidFire;
     public UnityEvent onPump;
+    public UnityEvent onPumpFinished;
     //important note for this i read this https://www.reddit.com/r/Unity3D/comments/syjz4h/how_do_i_make_my_audiosource_overlap_my_sounds/
     // and thats how i figure out how to get it to overlap itself audio wise
 
@@ -161,6 +162,8 @@ public class Gun : MonoBehaviour
         onPump.Invoke();
         yield return new WaitForSeconds(PumpDelay);
         IsPumping = false;
+        onPumpFinished.Invoke();
+
     }
 
 }

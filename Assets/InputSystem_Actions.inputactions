@@ -95,42 +95,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Equip 1",
-                    "type": "Button",
-                    "id": "8741862f-900b-4a34-a459-9162ed51dadf",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Equip 2",
-                    "type": "Button",
-                    "id": "91727c48-e19f-4289-bf58-4af76d2dfe7f",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Equp 3",
-                    "type": "Button",
-                    "id": "18e79f55-cc6e-4563-8809-c8bbc5e5a7bd",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Unequip",
-                    "type": "Button",
-                    "id": "697d31bf-cc44-430b-843c-85d92b9aba72",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -538,61 +502,6 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Testing",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "dcf61517-0487-41a2-ab46-beb6b1797d51",
-                    "path": "<Keyboard>/1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Equip 1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3f2101b6-3cef-4def-9a85-0b5e98ad335c",
-                    "path": "<Keyboard>/2",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Equip 2",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "92418f7a-21bb-4582-b751-da48c6666dda",
-                    "path": "<Keyboard>/3",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Equp 3",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "706854ff-308e-415a-aaae-be5f1f4be301",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Unequip",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "81603bdc-bb66-4fa8-8691-a1a13ff06bd5",
-                    "path": "<Keyboard>/0",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Unequip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1115,13 +1024,40 @@
             ]
         },
         {
-            "name": "Testing one",
+            "name": "Equipping",
             "id": "44d642f9-006a-4728-86ff-c3ebfe99c01f",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "1st Slot",
                     "type": "Button",
                     "id": "b2788204-f855-41d4-86af-5ba6907f202f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "2nd Slot",
+                    "type": "Button",
+                    "id": "36f707c0-75d0-46db-9374-248cdc9538af",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "3rd Slot",
+                    "type": "Button",
+                    "id": "9f9483b2-d5f4-4f8b-9374-72d2cbc9ba34",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Unequip",
+                    "type": "Button",
+                    "id": "cccaf447-c11d-4bb9-8bdc-ef1238cc0db2",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -1132,22 +1068,55 @@
                 {
                     "name": "",
                     "id": "e1a53989-632f-460a-94ee-644550b9b331",
-                    "path": "",
+                    "path": "<Keyboard>/1",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "New action",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "1st Slot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "896a8869-b18e-4535-9a46-91876f0d4b36",
-                    "path": "<Mouse>/press",
+                    "id": "98ffc3ba-0624-4421-b699-0963c2c45c22",
+                    "path": "<Keyboard>/2",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "New action",
+                    "action": "2nd Slot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "158bc97b-8dc6-4e94-89d9-b75e847db4c2",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "3rd Slot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0217878-4026-4928-8449-7e932ba2a45f",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Unequip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "67d5d20b-cb68-4ffb-bf55-6c58b54d3aad",
+                    "path": "<Keyboard>/0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Unequip",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
